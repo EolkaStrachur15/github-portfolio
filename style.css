@@ -164,6 +164,8 @@ body {
     border: 2px solid cyan;
     background-color: cyan;
     color: #000;
+    border: none;
+    outline: none; 
     cursor: pointer;
     border-radius: 25px;
     transition: 0.3s ease;
