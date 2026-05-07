@@ -31,7 +31,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background: rgba(0, 0, 0, 0.7); /* dark glass */
+    background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 
@@ -164,8 +164,6 @@ body {
     border: 2px solid cyan;
     background-color: cyan;
     color: #000;
-    border: none;
-    outline: none; 
     cursor: pointer;
     border-radius: 25px;
     transition: 0.3s ease;
@@ -180,10 +178,6 @@ body {
     .btn:hover {
     background-color: transparent;
     color: cyan;
-    }
-    .btn2:hover {
-    background-color: cyan; 
-    color: rgb(0, 0, 0);
     }
 
     /*section 2*/
