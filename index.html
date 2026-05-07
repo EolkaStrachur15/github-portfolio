@@ -1,239 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <link rel="stylesheet" href="style.css" />
-        <title>Portfolio</title>
-        
-    </head>
-    <body>
-        <nav>
-             <div class="navbar">
-              
-          <div class="logo">
-          <a href="#home">Portfolio</a>
-          </div>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul> 
-        </div>
-    </nav>
-        <section class="hero" id="home">
-      <div class="main">
-        <div class="image">
-        <img src="img/main-page/Main_border.jpg" alt="">
-      </div>
-      <div class="content">
-        <h1 class="name">
-          Hi, I'm
-          <span>Prince.</span>
-        </h1>
-        <div class="sequence">
-            BSIT: MA&A <label for="">|</label>
-              <span class="sequence-text">12-ITEM-02</span>
-        </div>
-              <p> An aspiring writer, captivated by the stories  that lead us <br> to question life and the world around us. <br>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                <br>"Did copyright exist for one's life, too? But, was it okay to <br>describe one's life as a 'work of an author'?"
-        <br>— Singshong (싱숑)</p>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css" />
 
-      <div class="social-links">
+<title>Escapism x FlowTile</title>
+</head>
 
-        <div class="social-links">
-          <a href="https://x.com/clearnight15" target="_blank">
-            <i class="fa-brands fa-x-twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/portatorideivelluti/" target="_blank">  
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-          <a href="https://www.instagram.com/clearnight15/" target="_blank">  
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </div>
-      </div>
-            <div class="btn">
-              <a href="#about">
-              <button>Learn More</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        </section>
+<body>
 
-<!--about-->  
-    <section class="about" id="about">
-        <div class="about-container">
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="#home" class="navbar-logo">Escapism x FlowTile</a>
 
-      <div class="about-img">
-        <img src="img/about/About.jpg" class="hero-photo" loading="lazy" alt="">
-      </div>
+    <button class="navbar-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
 
-        <div class="about-content">
-          <h2>About <span>Me</span></h2>
-                    <p>
-          My name is Ado Gon Vona, and I am just your typical ordinary guy learning this and that. <br> My field of interests are reading and writing, especially when it comes to stories that let me explore different ideas and emotions. <br>I don't really have much going on in my life besides writing, I guess—but somehow, that has been enough for me. <br>Reading and writing stories are what have kept me going so far. Through them, I continue to learn, imagine, and find my own way forward.
+    <ul class="navbar-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#team">Meet Our Team</a></li>
+    </ul> 
+  </div>
+</nav>
 
-        </p>
-                <a href="#about" class="btn">Read More</a>
-          </div>
-        </div>
+<!-- HOME -->
+<section class="home" id="home">
+  <div class="main">
+    <h2 class="heading_1">Collab</h2>
+    <h1 class="heading">Moon is Calm,<br> So Is Yours</h1>
+    <p class="description">The two games designed for different moods—<br>but with the same purpose: to pull you into immersive, <br>thoughtful gameplay that balances pressure and calm.</p>
+
+    <div class="main_btn">
+      <button class="btn btn1">FlowTile</button>
     </div>
-<!--skills-->  
-    </section>
-     <section class="skills" id="skills">
-            <div class="skills-wrapper">
-              <div class="second-title">
-                <span>My Skills</span>
-              </div>
+  </div>
+</section>
 
-              <div class="container"> 
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="games-row">
 
-                <div class="card">
-                    <div class="card-image">
-                      <img src="img/skills/Writer.jpg" class="skill-icon" alt="Writer">
-                     
-                      <div class="subsecond-title">Writer</div>
+    <!-- GAME 1 -->
+    <div class="card-wrapper">
+      <input type="checkbox" id="game1">
+      <label for="game1" class="big-card">
+        <img src="img/about/Escapism.GIF" alt="">
+        <div class="card-text">
+          <h2>Escapism</h2>
+          <p>
+            Escapism is a 2D horror maze game where the player collects five keys while being chased by a ghost.
+          </p>
+        </div>
+      </label>
+    </div>
 
-                      <div class="description">I write drama, modern, and fantasy stories, driven by the hope that one day someone will read and connect with them.
+    <!-- GAME 2 -->
+    <div class="card-wrapper">
+      <input type="checkbox" id="game2">
+      <label for="game2" class="big-card">
+        <img src="img/about/FlowTile.gif" alt="">
+        <div class="card-text">
+          <h2>FlowTile</h2>
+          <p>
+            A puzzle game where players change colors to fill the board using limited moves.
+          </p>
+        </div>
+      </label>
+    </div>
 
-                    </div>
-                </div>
-            </div>
+  </div>
+</section>
 
-            <div class="card">
-              <div class="card-image">
-                      <img src="img/skills/Imitator.jpg">
-                      <div class="subsecond-title">Imitator</div>
-                      <div class="description"> I am an imitator with average skills, inspired by what I see and motivated to create and improve through practice.
+<!-- TEAM SECTION -->
+<section class="team-section" id="team">
 
-                    </div>
-              </div>
-            </div>
-                <div class="card">
-                  <div class="card-image">
-                      <img src="img/skills/Conceptor.jpg">
-                      <div class="subsecond-title">Conceptor</div>
-                      <div class="description">I imagine ideas to create something new, but sadly the things I think of already exist somewhere else in reality.
-                      </div>
-                </div>
-              </div>
-            </div>   
-      </section>
-<!---interests-->
-            <section class="hobbies" id="hobbies">
-              <div class="interests-bg"></div>
-                <div class="interests-wrapper"> 
-                    <h2 class="page-title">Hobbies</h2>
-                <div class="swiper">
-                    <div class="swiper-wrapper">
+  <h1 class="team-title">MEET OUR TEAM</h1>
 
-                <div class="swiper-slide" data-bg="img/interest/bg/ORV_bg.jpg">
-                        <img src="img/interest/img/ORV_card.jpg"/>
-                    
-                    <div class="title">
-                        <span>Omniscient Readers Viewpoint</span>
-                    </div>
-                      
-                        <div class="category">
-                            <span>Manhwa</span></div>
-                </div> 
+  <div class="team-container">
 
-                <div class="swiper-slide" data-bg="img/interest/bg/86_bg.jpeg">
-                        <img src="img/interest/img/Light_Novel_Volume_1_card.jpg"/>
-                    
-                    <div class="title">
-                        <span>Eighty-Six</span>
-                    </div>
-                        
-                        <div class="category">
-                            <span>Light Novel</span></div>
-                </div>    
-                <div class="swiper-slide" data-bg="img/interest/bg/TOG_bg.jpg">
-                        <img src="img/interest/img/ToG-Book08.jpg"/>
-                    
-                    <div class="title">
-                        <span>Tower of God</span>
-                    </div>
-                        
-                        <div class="category">
-                            <span>Manhwa</span></div>
-                </div> 
-                <div class="swiper-slide" data-bg="img/interest/bg/LOM_bg.png">
-                        <img src="img/interest/img/LOM_card.jpg"/>
-                    
-                    <div class="title">
-                        <span>Lord of the Mysteries</span>
-                    </div>
-                        
-                        <div class="category">
-                            <span>Light Novel</span></div>
-                </div>
-                <div class="swiper-slide" data-bg="img/interest/bg/Expedition33_bg.jpeg">
-                        <img src="img/interest/img/Expedition33_card.jpg"/>
-                    
-                    <div class="title">
-                        <span>Expedition 33</span>
-                    </div>
-                        
-                        <div class="category">
-                            <span>Game</span></div>
-                    </div>
-             </div>         
-            <div class="swiper-pagination"></div>
-            </div>
-        </section> 
-<!---contacts-->       
-      <section class="contact" id="contact">
-        <div class="info">
+    <div class="team-card">
+      <img src="img/team/jamaica.jpg">
+      <div class="team-overlay">
+        <h3>JAMAICA BIALA</h3>
+        <p>UI/UX Designer</p>
+        
+        <a href="./jam_portfolio/index.html" target="_blank">
+          View My Portfolio
+        </a>
+      </div>
+    </div>
 
-        <div class="contact-info">
-            <h3>Contact</h3>
-                <p><i class="fas fa-phone"></i>+63 9954006718</p>
-                <p><i class="fas fa-envelope"></i>princegerfedevera@gmail.com</p>
-                <p><i class="fas fa-map-marker-alt"></i>212 Banaoang Calasiao, Pangasinan</p>
-              </div>
+    <div class="team-card">
+      <img src="img/team/chanele.jpg">
+      <div class="team-overlay">
+        <h3>CHANELE MANONGDO</h3>
+        <p>Game Developer</p>
 
-             <div class="social-links-2">
-            <h3>Social Networks</h3>
-                <p>
-                  <a href="https://www.facebook.com/portatorideivelluti/" target="_blank">
-                  <i class="fa-brands fa-facebook-f"></i>princedevera
-                  </a>
-                </p>  
-                <p>
-                  <a href="https://www.instagram.com/clearnight15/" target="_blank">
-                  <i class="fa-brands fa-instagram"></i>princedevera
-                  </a>
-                </p>  
-                <p>
-                  <a href="https://x.com/clearnight15/" target="_blank">
-                  <i class="fa-brands fa-x-twitter"></i>princedevera
-                  </a>
-                </p>  
-              </div>
-            <div class="img-2">
-              <img src="img/contact/ORV_contact.png">
-          </div>
-        </div> 
-      </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="app.js"></script>
-        <footer>
-      <div class="footer-text">
-        <span>Created By
-          <a href="#">The Fool</a>
-          | &#169: 2026 All Rights Reserved</span>
+        <a href="./chanele_portfolio/index.html" target="_blank">
+          View My Portfolio
+        </a>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <img src="img/team/anica.jpg">
+      <div class="team-overlay">
+        <h3>ANICA VELASCO</h3>
+        <p>Game Developer</p>
+
+        <a href="./anica_portfolio/index.html" target="_blank">
+          View My Portfolio
+        </a>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <img src="img/team/prince.jpg">
+      <div class="team-overlay">
+        <h3>PRINCE DE VERA</h3>
+        <p>Game Developer</p>
+
+        <a href="./prince_portfolio/index.html" target="_blank">
+          View My Portfolio
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!---footer--->
+  <footer>
+    <div class="footer-text">
+        <p> Group 5 | Web Tech and Dev | 12-ITEM-02 | 1st-2nd-Sem</p>
         </div>
     </footer>
-</body>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="apps.js"></script>
+
+</body>
 </html>
